@@ -1,7 +1,7 @@
 {
-  "name": "draft-js",
+  "name": "@boundless/draft-js",
   "description": "A React framework for building text editors.",
-  "version": "0.7.1",
+  "version": "0.0.1",
   "keywords": [
     "draftjs",
     "editor",
@@ -9,7 +9,6 @@
     "richtext"
   ],
   "homepage": "https://facebook.github.io/draft-js",
-  "bugs": "https://github.com/facebook/draft-js/issues",
   "files": [
     "dist/",
     "lib/",
@@ -17,7 +16,10 @@
     "PATENTS"
   ],
   "main": "lib/Draft.js",
-  "repository": "facebook/draft-js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/draft-js.git"
+  },
   "license": "BSD-3-Clause",
   "scripts": {
     "prepublish": "npm run build",
@@ -94,5 +96,10 @@
       "<rootDir>/node_modules/react/",
       "<rootDir>/node_modules/react-dom/"
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "author": "Adam Fraser"
 }
