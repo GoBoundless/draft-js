@@ -4,6 +4,14 @@ Notable changes to Draft.js will be documented in this file.
 
 Changes to `src` are live in production on facebook.com at the time of release.
 
+## 0.0.1 (July 13, 2016)
+
+Forked by Boundless.
+
+### Added
+
+* Support for detecting and cloning entities when pasting via the `pasteUniqueEntities` prop on `DraftEditor`.
+
 ## 0.7.0 (May 3, 2016)
 
 ### Added
